@@ -7,11 +7,30 @@ theme: default
 ---
 
 <!-- _class: lead -->
+<!-- _footer: "Product Docs | Page ${page}" -->
 
 # Product Documentation  
 ## Software Platform — Overview
 
-Contact: **24f2001869@ds.study.iitm.ac.in**
+**Email:** 24f2001869@ds.study.iitm.ac.in
+
+---
+
+<!-- _backgroundColor: "#f0f4ff" -->
+<!-- _color: "#003366" -->
+
+# Custom Theme Example
+
+<style>
+section {
+  font-family: "Arial", sans-serif;
+}
+h1 {
+  color: #0055aa;
+}
+</style>
+
+This slide has a **custom theme** and **Marp directives**.
 
 ---
 
@@ -19,14 +38,13 @@ Contact: **24f2001869@ds.study.iitm.ac.in**
 
 # Product Architecture
 
+This slide uses a **background image**.
+
 ---
 
 # Algorithmic Complexity
 
-$$
-T(n) = 2T \left(\frac{n}{2}\right) + O(n)
-$$
+Using math:
 
 $$
-T(n) = O(n \log n)
-$$
+T(n) = 2T\left(\frac{n}{2}\r
