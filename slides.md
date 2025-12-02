@@ -1,50 +1,36 @@
 ---
 marp: true
 title: Product Documentation Presentation
-author: Rahul Kumar
 paginate: true
 theme: default
 ---
 
 <!-- _class: lead -->
-<!-- _footer: "Product Docs | Page ${page}" -->
 
-# Product Documentation  
-## Software Platform — Overview
+# Product Documentation
 
-**Email:** 24f2001869@ds.study.iitm.ac.in
+Email: **24f2001869@ds.study.iitm.ac.in**
 
 ---
 
-<!-- _backgroundColor: "#f0f4ff" -->
-<!-- _color: "#003366" -->
+<!-- _backgroundColor: "#eef7ff" -->
 
-# Custom Theme Example
+# Background Test Slide
 
-<style>
-section {
-  font-family: "Arial", sans-serif;
-}
-h1 {
-  color: #0055aa;
-}
-</style>
-
-This slide has a **custom theme** and **Marp directives**.
+This slide uses a Marp directive AND styling.
 
 ---
 
 ![bg cover](images/product-bg.jpg)
 
-# Product Architecture
+# Architecture Slide
 
-This slide uses a **background image**.
+Background image applied.
 
 ---
 
-# Algorithmic Complexity
-
-Using math:
+# Math Slide
 
 $$
-T(n) = 2T\left(\frac{n}{2}\r
+T(n) = O(n \log n)
+$$
